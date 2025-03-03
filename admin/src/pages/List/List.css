@@ -25,7 +25,7 @@
 
 .remove{
     cursor: pointer;
-    
+    color:rgba(197, 90, 17,0.6);
 }
 
 @media (max-width:600px){
