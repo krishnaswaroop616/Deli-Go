@@ -1,0 +1,49 @@
+
+.menu{
+    margin: 0px auto;
+    width: 90%;
+}
+.menu-items{
+    margin-top:2rem ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    
+   
+}
+.menu-items img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.menu-items p{
+    margin-left: auto;
+    opacity: 0.8;
+    font-size: 1rem;
+    
+}
+
+.menu-items{
+    overflow-x: scroll;
+}
+.menu-items::-webkit-scrollbar{
+    display: none;
+}
+.menu-items img:hover{
+    height: 6.5rem;
+    width: 6.5rem;
+    box-shadow: 5px 5px 15px black;
+    
+    cursor: pointer;
+}
+
+
+@media (max-width:1050px) {
+    .menu-text{
+        max-width: 100%;
+    }
+}
+ 

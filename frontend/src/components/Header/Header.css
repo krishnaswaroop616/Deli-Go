@@ -1,0 +1,71 @@
+.header{
+    height: 38vw;
+    width: 95%;
+    margin:30px auto; 
+    background-image: url('C:\Users\acer\Desktop\Foodify\frontend\src\assets\frontend_assets\headerimg.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat:no-repeat ;
+    position: relative;
+    
+}
+
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column ;
+    align-items: start ;
+    gap:1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    color: white;
+    animation-name: fadeIn ;
+    animation-duration: 2s;
+}
+
+.header-content h2{
+    font-weight: 700;
+    color: white;
+    font-size: max(3.5vw,20px);
+}
+
+.header-content p{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.header-content a{
+    height: 48px;
+    width: 110px;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1rem;
+}
+
+
+@media (max-width:1050px){
+    
+    .header-content{
+        max-width:45%;
+    }
+}
+
+@media (max-width:750px){
+   
+    .header-content{
+        max-width:55%;
+    }
+
+    .header-content p{
+        display: none;
+    }
+}
+
+@media (max-width:380px){
+    .header-content h2{
+        display: none;
+    }
+}

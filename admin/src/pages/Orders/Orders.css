@@ -1,0 +1,37 @@
+.order-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr ;
+    align-items: start;
+    gap: 30px;
+    border: 1.5px solid rgb(197,90,17);
+    padding:20px;
+    margin: 30px 0px;
+    font-size:14px;
+    
+}
+
+.order h2{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(197,90,17);
+}
+
+.order-item-name{
+    margin-top: 30px;
+    margin-bottom: 5px;
+
+}
+
+.order-item-address{
+    margin-bottom: 10px;
+}
+
+.order-item select{
+    background-color: rgba(197,90,17,0.17);
+    border-radius: 5px;
+    height: 25px;
+    width: max(10vw,120px);
+
+}
+
+

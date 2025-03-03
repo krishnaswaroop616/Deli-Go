@@ -1,0 +1,22 @@
+.navbar-container{
+    padding: 5px 8px;
+    width: 100%;
+    display: flex;    
+    background-color: wheat; 
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar-container .logo{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 220px;
+}
+
+.navbar-container .profile{
+    margin-right: 20px;
+    font-size: 30px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
