@@ -2,7 +2,7 @@
     height: 38vw;
     width: 95%;
     margin:30px auto; 
-    background-image: url('C:\Users\acer\Desktop\Foodify\frontend\src\assets\frontend_assets\headerimg.jpg');
+    background-image: url('../../assets/frontend_assets/headerimg.jpg');
     background-size: cover;
     border-radius: 20px;
     background-repeat:no-repeat ;
